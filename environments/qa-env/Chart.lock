@@ -1,0 +1,27 @@
+dependencies:
+- name: entailment-common
+  repository: file://../../entailment-common
+  version: 0.1.0
+- name: configserver
+  repository: file://../../entailment-services/configserver
+  version: 0.1.0
+- name: eurekaserver
+  repository: file://../../entailment-services/eurekaserver
+  version: 0.1.0
+- name: accounts
+  repository: file://../../entailment-services/accounts
+  version: 0.1.0
+- name: cards
+  repository: file://../../entailment-services/cards
+  version: 0.1.0
+- name: loans
+  repository: file://../../entailment-services/loans
+  version: 0.1.0
+- name: gatewayserver
+  repository: file://../../entailment-services/gatewayserver
+  version: 0.1.0
+- name: message
+  repository: file://../../entailment-services/message
+  version: 0.1.0
+digest: sha256:60f0ce2a3fbcf9457b3a1d46637d523abb53487b9a556564ec2d0c2adb0a9df1
+generated: "2024-09-17T23:50:27.0765584+05:30"
